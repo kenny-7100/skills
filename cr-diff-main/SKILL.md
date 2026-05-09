@@ -19,6 +19,12 @@ description: 只有当用户明确说 cr-diff-main 时才使用。
 
 3. 对比当前分支和最新 `main`，然后做 CR。
 
+
+## CR问题列表输出格式
+
+
 ## 注意
 
-- 不要自动部署、push、merge、rebase、reset。
+- 避免：自动部署、push、merge、rebase、reset。
+- 避免给出非本批次修改引入的问题，避免给出历史问题。
+- 确保影响已有功能的问题都被识别出来。
